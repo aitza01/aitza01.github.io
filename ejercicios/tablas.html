@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+  <ul id="menu_externo">
+    
+    <li> <a href="Formatos de texto.html"> Formatos de texto</a></li>
+    <li><a href="listas.html">&nbsp;Listas</a></li>
+    <li>&nbsp;<a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio2.html">Audio</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="Formularios.html">Formularios&nbsp;</a></li>
+    <li><a href="Formulario ejercicio en clase.html">Formularios 2</a></li>
+    <li><a href="../index.html">INDEX</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde codigo&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <table border="1" id="tabla_1">
+	  <thead>
+		  <tr>
+		      <th>Nombre</th>
+		      <th>Taller</th>
+		      <th>Email</th>
+		      <th>Couta</th>
+		  </tr>
+		  </thead>
+		  <tbody>
+		      <tr>
+				  <td>Rosa Lopez</td>
+				  <td>Pintura</td>
+				  <td>rosa@hotmail.com</td>
+				  <td>500</td>
+			  </tr>
+			  <tr>
+			  	<td>Lila Jimenez</td>
+			  	<td>Fotografia</td>
+			  	<td>lila@hotmail.com</td>
+			  	<td>700</td>
+			  </tr>
+			  <tr>
+			  	<td>Denisse Ochoa</td>
+			  	<td>Manualidades</td>
+			  	<td>den@hotmail.com</td>
+			  	<td>500</td>
+			  </tr>
+			  <tr>
+			  	<td>Jorge Cardenas</td>
+			  	<td>Fotografia</td>
+			  	<td>jorge@hotmail.com</td>
+			  	<td>700</td>
+			  </tr>
+			  <tr>
+			  	<td>Marco Castro</td>
+			  	<td>Natación</td>
+			  	<td>mar@hotmail.com</td>
+			  	<td>600</td>
+			  </tr>
+		  </tbody>
+		  <tfoot>			  
+		      <tr>
+				  <td></td>
+				  <td></td>
+				 <td>Total de inscripciones</td>
+				 <td>3,000</td> 
+			  </tr>
+		  </tfoot>
+	  </table>
+</section>
+  <section>
+    <h2>Tabla con estilo css y uso de rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Couta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rosa Lopez</td>
+          <td>Pintura</td>
+          <td>rosa@hotmail.com</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Lila Jimenez</td>
+          <td>Fotografia</td>
+          <td>lila@hotmail.com</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>Denisse Ochoa</td>
+          <td>Manualidades</td>
+          <td>den@hotmail.com</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Jorge Cardenas</td>
+          <td>Fotografia</td>
+          <td>jorge@hotmail.com</td>
+          <td>700</td>
+        </tr>
+        <tr>
+          <td>Marco Castro</td>
+          <td>Natación</td>
+          <td>mar@hotmail.com</td>
+          <td>600</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          
+          <td colspan="3" style="background-color:#7E42DD; font-weight: bold; color:#F1E5E5">Total de inscripciones</td>
+          <td>3,000</td>
+        </tr>
+      </tfoot>
+    </table>
+    </section>
+  <section>
+    <h2>&nbsp;Tabla con cebras en horizontal o filas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <table  border="1" cellspacing="5" id="tabla_3">
+		<thead>
+			<tr>
+          <th scope="col">&nbsp;Nombre<br>
+		  <br></th>
+          <th scope="col">&nbsp;Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Teléfono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+		</thead>
+      <tbody>
+        
+        <tr>
+          <td>&nbsp;Luis Torres</td>
+          <td>&nbsp;luis12@hotmail.com</td>
+          <td>&nbsp;1234567890</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Abigail Flores</td>
+          <td>&nbsp;abi@hotmail.com</td>
+          <td>&nbsp;3459876512</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Basquetbool</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Román Lopéz</td>
+          <td>&nbsp;ro123@hotmail.com</td>
+          <td>&nbsp;3857612908</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;María Cerón</td>
+          <td>&nbsp;mari@hotmail.com</td>
+          <td>&nbsp;4096143976</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Futbool</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla con cebras verticales o  columnas&nbsp; &nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <table  border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre<br>
+            <br></th>
+          <th scope="col">&nbsp;Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Teléfono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luis Torres</td>
+          <td>&nbsp;luis12@hotmail.com</td>
+          <td>&nbsp;1234567890</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Abigail Flores</td>
+          <td>&nbsp;abi@hotmail.com</td>
+          <td>&nbsp;3459876512</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Basquetbool</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Román Lopéz</td>
+          <td>&nbsp;ro123@hotmail.com</td>
+          <td>&nbsp;3857612908</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;María Cerón</td>
+          <td>&nbsp;mari@hotmail.com</td>
+          <td>&nbsp;4096143976</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Futbool</td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+  <section>
+    <h2>Tabla flotante (hover)&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <table  border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre<br>
+            <br></th>
+          <th scope="col">&nbsp;Correo Electronico&nbsp;</th>
+          <th scope="col">&nbsp;Teléfono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luis Torres</td>
+          <td>&nbsp;luis12@hotmail.com</td>
+          <td>&nbsp;1234567890</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Abigail Flores</td>
+          <td>&nbsp;abi@hotmail.com</td>
+          <td>&nbsp;3459876512</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Basquetbool</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Román Lopéz</td>
+          <td>&nbsp;ro123@hotmail.com</td>
+          <td>&nbsp;3857612908</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;María Cerón</td>
+          <td>&nbsp;mari@hotmail.com</td>
+          <td>&nbsp;4096143976</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Futbool</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="seccion1">
+    <h2>Tabla receptiva&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem, deserunt dolor similique facere suscipit nemo tempora maiores est culpa, velit laborum corporis natus, consectetur ab eligendi incidunt impedit. Porro accusamus unde, minus sunt, voluptates earum velit corporis vitae eveniet obcaecati aspernatur totam vel facere repellat iste, ipsum perspiciatis fuga.</p>
+    <div id="tabla_receptiva">
+      <table border="1" cellspacing="5" id="tabla_6">
+        <tbody>
+          <tr>
+            <th scope="col">&nbsp;NOMBRE</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">&nbsp;Puntos</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">&nbsp;Puntos</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">Puntos&nbsp;</th>
+            <th scope="col">&nbsp;Puntos</th>
+            <th scope="col">Puntos&nbsp;</th>
+          </tr>
+          <tr>
+            <td>&nbsp;Denisse</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;34</td>
+            <td>&nbsp;56</td>
+            <td>&nbsp;56</td>
+            <td>&nbsp;23</td>
+            <td>&nbsp;56</td>
+            <td>&nbsp;37</td>
+            <td>&nbsp;46</td>
+            <td>&nbsp;76</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;12</td>
+            <td>&nbsp;43</td>
+            <td>&nbsp;53</td>
+            <td>&nbsp;21</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Andrea</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;30</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;75</td>
+            <td>&nbsp;47</td>
+            <td>&nbsp;34</td>
+            <td>&nbsp;34</td>
+            <td>&nbsp;50</td>
+            <td>&nbsp;65</td>
+            <td>&nbsp;21</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;20</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Desi</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;60</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;39</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;85</td>
+            <td>&nbsp;38</td>
+            <td>&nbsp;87</td>
+            <td>&nbsp;90</td>
+            <td>&nbsp;40</td>
+            <td>&nbsp;43</td>
+            <td>&nbsp;21</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;11</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Mich</td>
+            <td>&nbsp;25</td>
+            <td>&nbsp;30</td>
+            <td>&nbsp;16</td>
+            <td>&nbsp;45</td>
+            <td>&nbsp;46</td>
+            <td>&nbsp;98</td>
+            <td>&nbsp;38</td>
+            <td>&nbsp;76</td>
+            <td>&nbsp;20</td>
+            <td>&nbsp;30</td>
+            <td>&nbsp;23</td>
+            <td>&nbsp;24</td>
+            <td>&nbsp;34</td>
+            <td>&nbsp;20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborada por Aixa Talí Navarro Silvestre</h6>
+</footer>
+</body>
+</html>

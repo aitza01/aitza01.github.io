@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+&nbsp;</header>
+<nav>
+  <ul id="menu_externo">
+    <li><a href="Formatos de texto.html">Formatos de texto</a></li>
+    <li>&nbsp;<a href="listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">&nbsp;Enlaces</a></li>
+    <li>&nbsp;<a href="tablas.html">Tablas</a></li>
+    <li>&nbsp;<a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio2.html">&nbsp;Audio</a></li>
+    <li><a href="video.html">&nbsp;Video</a></li>
+    <li><a href="Formulario ejercicio en clase.html">Formulario 2&nbsp;</a></li>
+    <li><a href="../index.html">INDEX</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario</h2>
+    <p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non necessitatibus maiores qui corporis fugiat, quisquam nisi architecto minima consequatur porro officiis id fuga eaque voluptatibus aliquid deleniti quas sed blanditiis.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br>	
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br>	
+      <input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario 2</h2>
+    <p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non necessitatibus maiores qui corporis fugiat, quisquam nisi architecto minima consequatur porro officiis id fuga eaque voluptatibus aliquid deleniti quas sed blanditiis.</p>
+    <form id="form2" name="form2" method="post">
+      <label for="select">País:</label>
+      <select name="select" id="select">
+        <option value="MX">México</option>
+        <option value="US">Estados unidos</option>
+        <option value="ES">España</option>
+        <option value="CN">Canada</option>
+        <option value="CH">Chile</option>
+        <option value="IT">Italia</option>
+      </select>
+		<br><br>
+      <label>Género:</label>
+		<br>
+      <p>
+        <label>
+          <input name="G&eacute;nero" type="radio" class="casilla" value="Mujer">
+          Mujer</label>
+        <br>
+        <label>
+          <input name="G&eacute;nero" type="radio" class="casilla" value="Hombre">
+          Hombre</label>
+        <br>
+      </p>
+		<br>
+      <label>Selecciona tu forma de pago:</label>
+      <table width="200" class="tabla_formul">
+        <tr>
+          <td><label>
+            <input name="Formas de pago" type="checkbox" class="casilla" value="Efectivo">
+            Efectivo</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input name="Formas de pago" type="checkbox" class="casilla" value="Crédito">
+            Tarjeta de crédito</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input name="Formas de pago" type="checkbox" class="casilla" value="Débito">
+            Trajeta de débito</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input name="Formas de pago" type="checkbox" class="casilla" value="Cheque">
+            Cheque</label></td>
+        </tr>
+      </table>
+<br>	
+      <input type="submit" name="submit2" id="submit2" value="Enviar">
+      
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non necessitatibus maiores qui corporis fugiat, quisquam nisi architecto minima consequatur porro officiis id fuga eaque voluptatibus aliquid deleniti quas sed blanditiis.</p>
+    <form id="form3" name="form3" method="post">
+      <label for="textfield">Nombre:</label>
+      <input name="textfield" type="text" required="required" class="espacios">
+      <br><br>
+		<label for="email">Email:</label>
+      <input name="email" type="email" required="required" class="espacios">
+      <br><br>	
+		<label for="textarea">Mensaje:</label>
+      <textarea name="textarea" rows="8" maxlength="150" id="textarea"></textarea>
+		<br><br>	
+      <input name="submit3" type="submit" class="enviar" formaction="Gracias.html" value="Enviar">
+      
+    </form>
+  &nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Aixa Talí Navarro Silvestre</h6>
+&nbsp;</footer>
+</body>
+</html>
